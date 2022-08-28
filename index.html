@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador </title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="imagenes/tv-2223047_1280.png">
+        <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+   </head>
+   <body>
+        <header>
+            <div class= "encabezado">
+                <img class="imagenOsito" src="imagenes/osito.jpg">
+                <h1>Encriptador de texto Online</h1>
+            </div>
+        </header>
+        <main>
+            <section class="entrada">
+                <textarea class="texto-entrada" cols="25" rows="14" placeholder="Ingrese el texto aquí"></textarea>
+                <p>&#128712; Inserte texto solo en minusculas y sin caracteres especiales</p>
+                <div class="botones">
+                    <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section class="salida">
+                <textarea class="texto-salida" cols="20" rows="14" placeholder="No se ha encontrado ningún texto procesado"></textarea>
+                <div class="caja-copiar">
+                    <button class="copiar" onclick="copiar()">Copiar</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <ul>
+                <li class="lista">🛠 Desarrollado por: <em>Oliver Antonio Soto Merán</em></li>
+                <li class="lista">⌂ República Dominicana</li>
+                <li class="lista">🖃  oliverantoniosotomeran@gmail.com</li>
+                <li class="lista"><a href="https://www.linkedin.com/in/oliver-antonio-soto-meran/">Mi linkedin</a></li>
+            </ul>
+
+            <p>© 2022 Encriptador de texto Online  </p>
+        </footer>
+        <script src="script.js"></script>
+   </body>
+</html>
